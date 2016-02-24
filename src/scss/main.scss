@@ -6,16 +6,3 @@ $visual-grid:true;
 *{
   background-color: #666;
 }
-
-.main-wrapper{
-  @include outer-container;
-}
-
-.article{
-  @include span-colums(4 of 12);
-}
-
-.averages{
-  @include outer-container;
-  text-align: center;
-}
