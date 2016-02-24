@@ -27,32 +27,30 @@ class Average2014 extends React.Component {
   }
 
   filterDaysOfWeek(daysOfWeek){
-    console.log(daysOfWeek)
     let day = daysOfWeek
     function monday(day){
-
       if (day.term === "Monday"){
-        return day.count
+        return day
       };
     }
     function tuesday(day){
       if (day.term === "Tuesday"){
-        return day.count
+        return day
       };
     }
     function wednesday(day){
       if (day.term === "Wednesday"){
-        return day.count
+        return day
       };
     }
     function thursday(day){
       if (day.term === "Thursday"){
-        return day.count
+        return day
       };
     }
     function friday(day){
       if( day.term === "Friday"){
-        return day.count
+        return day
       };
     }
 
