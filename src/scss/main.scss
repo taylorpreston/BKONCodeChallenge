@@ -1,0 +1,21 @@
+@import '../../dist/bower_components/bourbon/app/assets/stylesheets/bourbon';
+$visual-grid:true;
+@import '../../dist/bower_components/neat/app/assets/stylesheets/neat';
+
+
+*{
+  background-color: #666;
+}
+
+.main-wrapper{
+  @include outer-container;
+}
+
+.article{
+  @include span-colums(4 of 12);
+}
+
+.averages{
+  @include outer-container;
+  text-align: center;
+}
